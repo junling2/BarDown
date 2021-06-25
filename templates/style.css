@@ -1,0 +1,67 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Layout */
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem, 1fr, 5rem;
+    height: 100%;
+}
+header{
+    grid-area: header;
+    background-color: beige;
+}
+main{
+    grid-area: main;
+    padding: 1rem;
+}
+footer{
+    grid-area: footer;
+    background-color: beige;
+    color: black;
+}
+
+/* Common Classes */
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header Elements */
+header a{
+    padding: 1rem;
+}
+a.brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+a.brand:hover{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Row Elements */
+.row.center{
+    justify-content: center;
+}
