@@ -6,6 +6,7 @@ const data = {
             category: 'Mens Cleats',
             image: '/images/p1.jpg',
             price: 330,
+            countInStock: 10,
             brand: 'Nike', 
             rating: 5,
             numReviews: 1032,
@@ -17,6 +18,7 @@ const data = {
             category: 'Mens Cleats',
             image: '/images/phantom-gt.jpg',
             price: 325,
+            countInStock: 20,
             brand: 'Nike', 
             rating: 4.5,
             numReviews: 456,
@@ -28,6 +30,7 @@ const data = {
             category: 'Mens Cleats',
             image: '/images/tiempo-legend.jpg',
             price: 210,
+            countInStock: 5,
             brand: 'Nike', 
             rating: 4.5,
             numReviews: 45,
@@ -39,10 +42,11 @@ const data = {
             category: 'Mens Cleats',
             image: '/images/hypervenom-III.jpg',
             price: 92,
+            countInStock: 0,
             brand: 'Nike', 
             rating: 2.5,
             numReviews: 13,
-            decription: 'The Nike Hypervenom III has a solid leather touch and form-fitting tougue for increased lock down',
+            description: 'The Nike Hypervenom III has a solid leather touch and form-fitting tougue for increased lock down'
         },
     ]
 }
