@@ -1,0 +1,26 @@
+{
+  "name": "bardown",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "FootBall Products E-commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junling2/BarDown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junling2/BarDown/issues"
+  },
+  "homepage": "https://github.com/junling2/BarDown#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
