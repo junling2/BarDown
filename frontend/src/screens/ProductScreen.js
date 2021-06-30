@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Rating from "../components/Rating";
-import data from "../data";
+import data from '../data2';
 
 export default function ProductScreen(props) {
     const product = data.products.find(x => x._id === props.match.params.id);
@@ -45,7 +45,7 @@ export default function ProductScreen(props) {
                                     <div>Status</div>
                                     <div>
                                         {product.countInStock > 0 ? <span className="success">In Stock</span> :
-                                            <span className="error">Unavailable</span>}
+                                            <span className="danger">Unavailable</span>}
                                     </div>
                                 </div>
                             </li>
