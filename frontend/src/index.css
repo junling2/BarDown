@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: grey;
 }
 
 ul {
@@ -111,8 +111,17 @@ a.brand {
   font-weight: bold;
 }
 
+.badge {
+  background-color: #f02020;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.4rem;
+  margin-left: 0.2rem;
+}
+
 a.brand:hover {
-  text-decoration: none;
+  color: black;
 }
 
 /* Row Elements */
