@@ -4,20 +4,19 @@ const data = {
     users: [
         {
             name: 'Jotaro',
-            email: 'giorno@giovanna.com',
+            email: 'admin@giovanna.com',
             password: bcrypt.hashSync('1234', 8),
             isAdmin: true
         },
         {
             name: 'Josuke',
-            email: 'mudamudamuda@jojo.com',
+            email: 'user@jojo.com',
             password: bcrypt.hashSync('1234', 8),
             isAdmin: false
         }
     ],
-    products:[
+    products: [
         {
-            _id: '1',
             name: 'Nike Mercurial Vapor 14 Elite FG',
             category: 'Mens Cleats',
             image: '/images/p1.jpg',
@@ -29,7 +28,6 @@ const data = {
             description: 'The Nike Mercurial Vapor 14 Elite AG features a new look with specialised components to let you play your fastest from start to finish. A cushioned insole helps prevent your foot from sliding, and the innovative plate provides instant responsiveness for quicker cuts at high speeds.',
         },
         {
-            _id: '2',
             name: 'Nike Phantom GT Elite FG',
             category: 'Mens Cleats',
             image: '/images/phantom-gt.jpg',
@@ -41,7 +39,6 @@ const data = {
             description: 'The Nike Phantom GT Elite FG is a data-driven design engineered for precise attacks. Grippy texture across the Flyknit top and specialised traction on the bottom let you take control of the game.',
         },
         {
-            _id: '3',
             name: 'Nike Tiempo Legend 8 Elite FG',
             category: 'Mens Cleats',
             image: '/images/tiempo-legend.jpg',
@@ -53,7 +50,6 @@ const data = {
             description: 'The Nike Tiempo Legend 8 Elite FG takes the legendary touch of premium kangaroo leather and adds foot-hugging Quadfit mesh in the lining and a wraparound Flyknit tongue that feels supportive under your arch.'
         },
         {
-            _id: '4',
             name: 'Nike Hypervenom III Academy FG',
             category: 'Mens Cleats',
             image: '/images/hypervenom-III.jpg',
