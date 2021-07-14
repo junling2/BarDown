@@ -158,10 +158,12 @@ a.brand:hover {
 img {
   border-radius: 0.5rem;
 }
+
 img.small {
   max-width: 5rem;
   width: 100%;
 }
+
 img.medium {
   max-width: 29rem;
   width: 100%;
@@ -206,6 +208,10 @@ img.large {
 
 /* Alert */
 
+.loading {
+  display: block !important;
+}
+
 .success {
   color: green;
 }
@@ -237,7 +243,7 @@ img.large {
   margin: 0 auto;
 }
 
-.form > div {
+.form>div {
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -254,6 +260,7 @@ img.large {
   display: inline-block;
   position: relative;
 }
+
 .dropdown-content {
   position: absolute;
   display: none;
