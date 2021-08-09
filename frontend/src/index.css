@@ -20,7 +20,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 'header' 'main' 'footer';
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 5rem, 1fr, 5rem;
   height: 100%;
@@ -73,7 +73,10 @@ li {
   margin-top: 1rem;
 }
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
   padding: 1rem;
   border-radius: 0.5rem;
   border: 0.1rem #a4a4a4 solid;
@@ -88,7 +91,10 @@ button {
   cursor: pointer;
 }
 
-input:hover, select:hover, textarea:hover, button:hover {
+input:hover,
+select:hover,
+textarea:hover,
+button:hover {
   border: 0.1rem #404040 solid;
 }
 
@@ -186,7 +192,7 @@ img.large {
   padding: 1rem;
 }
 
-.card-body>* {
+.card-body > * {
   margin-bottom: 0.5rem;
 }
 
@@ -233,7 +239,17 @@ img.large {
 
 .alert-error {
   color: #a02020;
-  background-color: #ffe0e0e0;
+  background-color: #ffe0e0;
+}
+
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0;
+}
+
+.alert-success {
+  color: green;
+  background-color: #eee0e0;
 }
 
 /* Form */
@@ -243,7 +259,7 @@ img.large {
   margin: 0 auto;
 }
 
-.form>div {
+.form > div {
   display: flex;
   flex-direction: column;
   margin: 1rem;
