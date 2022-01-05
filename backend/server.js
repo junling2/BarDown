@@ -1,16 +1,18 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import path from 'path';
 import userRouter from "./routers/userRouter.js";
 import productRouter from "./routers/productRouter.js";
 import orderRouter from "./routers/orderRouter.js";
 
 dotenv.config();
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect(process.env.MONGODB_URL || "mongodb://localhost/BarDown", {
+mongoose.connect(process.env.MONGODB_URL || "mongodb://localhost/bardown", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
