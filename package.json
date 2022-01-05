@@ -5,6 +5,7 @@
   "description": "FootBall Products E-commerce Website",
   "main": "index.js",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
@@ -30,5 +31,8 @@
     "eslint": "^7.29.0",
     "eslint-plugin-react": "^7.24.0",
     "nodemon": "^2.0.8"
+  },
+  "engines": {
+    "node": "12.4.0", "npm": "6.9.0"
   }
 }
